@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Quiz from './Quiz';
 import CompositionApp from './compositionblog';
+import ShowStateApp from './getinitstate';
 
 class MainApp extends Component {
   render() {
@@ -23,7 +24,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <CompositionApp />
+        <ShowStateApp />
       </div>
     );
   }
@@ -31,6 +32,7 @@ class App extends Component {
 
 /*
 <MainApp />
+<CompositionApp />
 */
 
 export default App;
